@@ -101,5 +101,8 @@
     <Resource Include="img\barraCaricamento 40.png" />
     <Resource Include="img\barraCaricamento 50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sfondo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

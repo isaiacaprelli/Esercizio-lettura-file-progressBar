@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF282727">
+        <Image HorizontalAlignment="Left" Height="420" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Source="sfondo.png" Stretch="Fill"/>
         <Label x:Name="caricamento" Content="" HorizontalAlignment="Left" Height="34" Margin="316,119,0,0" VerticalAlignment="Top" Width="205" FontFamily="Sylfaen" FontWeight="Bold" FontStyle="Italic" Foreground="White"/>
         <Image x:Name="imgBar" HorizontalAlignment="Left" Height="32" Margin="321,158,0,0" VerticalAlignment="Top" Width="177" Source="img/barraCaricamento 10.png" Stretch="Fill" Opacity="0"/>
-        <Button x:Name="btnLeggi" Content="LEGGI" HorizontalAlignment="Left" Height="56" Margin="316,246,0,0" VerticalAlignment="Top" Width="182" BorderBrush="Black" Background="White" FontFamily="Stencil" Click="btnLeggi_Click"/>
-        <Label x:Name="lblNumeroParole" Content="" HorizontalAlignment="Left" Height="36" Margin="316,326,0,0" VerticalAlignment="Top" Width="182"/>
+        <Button x:Name="btnLeggi" Content="LEGGI" HorizontalAlignment="Left" Height="56" Margin="316,246,0,0" VerticalAlignment="Top" Width="182" BorderBrush="White" Background="{x:Null}" FontFamily="Stencil" Click="btnLeggi_Click" Foreground="White"/>
+        <Label x:Name="lblNumeroParole" Content="" HorizontalAlignment="Left" Height="27" Margin="371,313,0,0" VerticalAlignment="Top" Width="91" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Showcard Gothic"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="271,322,0,0" TextWrapping="Wrap" Text="Parole file:" VerticalAlignment="Top" Width="86" Background="{x:Null}" Foreground="White" FontFamily="Showcard Gothic" BorderBrush="{x:Null}"/>
     </Grid>
 </Window>

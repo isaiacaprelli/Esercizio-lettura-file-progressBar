@@ -26,10 +26,8 @@ namespace Es_lettura_file_e_progress_bar
         public MainWindow()
         {
             InitializeComponent();
-            
-            
         }
-        bool v = true;
+        
         private void btnLeggi_Click(object sender, RoutedEventArgs e)
         {
             caricamento.Content = "attendere prego...";
@@ -52,10 +50,7 @@ namespace Es_lettura_file_e_progress_bar
                
 
             });
-
-            
         }
-
         ImageSource CambioImmagine(string r)
         {
             Uri u = new Uri(r, UriKind.Relative);
@@ -74,12 +69,11 @@ namespace Es_lettura_file_e_progress_bar
                         {
                             imgBar.Source = CambioImmagine("img/barraCaricamento " + i + ".png");
                         }));
-                    
-
                     };
                 this.Dispatcher.BeginInvoke(new Action(() =>
                 {
                     lblNumeroParole.Content = s.Length;
+                    caricamento.Content = " ";
                 }));
             });       
             

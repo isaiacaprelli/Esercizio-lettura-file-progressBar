@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("barracaricamento%2090.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sfondo.png")]
 
 
