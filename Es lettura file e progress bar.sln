@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es lettura file e progress bar", "Es lettura file e progress bar\Es lettura file e progress bar.csproj", "{AA2CC5A3-0A5F-4B3C-BFB4-2C1AD4148C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA2CC5A3-0A5F-4B3C-BFB4-2C1AD4148C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2CC5A3-0A5F-4B3C-BFB4-2C1AD4148C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2CC5A3-0A5F-4B3C-BFB4-2C1AD4148C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2CC5A3-0A5F-4B3C-BFB4-2C1AD4148C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {018FDBFE-A50E-43F6-9E6C-2B41BA8E3E71}
+	EndGlobalSection
+EndGlobal
