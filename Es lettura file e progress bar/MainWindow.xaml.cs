@@ -39,20 +39,17 @@ namespace Es_lettura_file_e_progress_bar
             
 
         }
-
+        string s = "";
         public async void LetturaFile()
         {
             await Task.Run(() =>
             {
-                string s = "";
+               
                 using (StreamReader sr = new StreamReader("file da leggere.txt"))
                 {
                     s = sr.ReadLine();
                 }
-                this.Dispatcher.BeginInvoke(new Action(() =>
-                {
-                    lblNumeroParole.Content = s.Length;
-                }));
+               
 
             });
 
@@ -66,19 +63,27 @@ namespace Es_lettura_file_e_progress_bar
             return immagine;
         }
            
-        public void CambioDellaImmagine()
+        public async void CambioDellaImmagine()
         {
-            if (v == true)
+            await Task.Run(() =>
             {
-                for (int i = 0; i < 100; i = i + 10)
+                    for (int i = 10; i <= 50; i = i + 10)
+                    {
+                        Thread.Sleep(1500);
+                        this.Dispatcher.BeginInvoke(new Action(() =>
+                        {
+                            imgBar.Source = CambioImmagine("img/barraCaricamento " + i + ".png");
+                        }));
+                    
+
+                    };
+                this.Dispatcher.BeginInvoke(new Action(() =>
                 {
-                    Thread.Sleep(1500);
-
-                    imgBar.Source = CambioImmagine("barraCaricamento " + i + ".png");
-
-                };
-                
-            }
+                    lblNumeroParole.Content = s.Length;
+                }));
+            });       
+            
+            
         }
     }
 }
