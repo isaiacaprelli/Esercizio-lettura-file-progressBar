@@ -36,17 +36,27 @@ namespace Es_lettura_file_e_progress_bar
             imgBar.Opacity = 100;
             LetturaFile();
             CambioDellaImmagine();
-            imgBar.Source=CambioImmagine("barraCaricamento 0");
             
 
         }
 
-        public async static void LetturaFile()
+        public async void LetturaFile()
         {
             await Task.Run(() =>
             {
+                string s = "";
+                using (StreamReader sr = new StreamReader("file da leggere.txt"))
+                {
+                    s = sr.ReadLine();
+                }
+                this.Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    lblNumeroParole.Content = s.Length;
+                }));
 
             });
+
+            
         }
 
         ImageSource CambioImmagine(string r)

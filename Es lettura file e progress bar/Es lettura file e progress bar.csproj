@@ -95,11 +95,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\barraCaricamento 0.png" />
+    <Resource Include="img\barraCaricamento 10.png" />
+    <Resource Include="img\barraCaricamento 20.png" />
     <Resource Include="img\barraCaricamento 30.png" />
+    <Resource Include="img\barraCaricamento 40.png" />
     <Resource Include="img\barraCaricamento 50.png" />
-    <Resource Include="img\barraCaricamento 65.png" />
-    <Resource Include="img\barraCaricamento 90.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
