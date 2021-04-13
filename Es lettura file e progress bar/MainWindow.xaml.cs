@@ -24,5 +24,11 @@ namespace Es_lettura_file_e_progress_bar
         {
             InitializeComponent();
         }
+
+        private void btnLeggi_Click(object sender, RoutedEventArgs e)
+        {
+            caricamento.Content = "attendere prego...";
+            imgBar.Opacity = 100;
+        }
     }
 }

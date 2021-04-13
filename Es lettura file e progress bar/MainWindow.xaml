@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Es_lettura_file_e_progress_bar"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF282727">
+        <Label x:Name="caricamento" Content="" HorizontalAlignment="Left" Height="34" Margin="316,119,0,0" VerticalAlignment="Top" Width="205" FontFamily="Sylfaen" FontWeight="Bold" FontStyle="Italic" Foreground="White"/>
+        <Image x:Name="imgBar" HorizontalAlignment="Left" Height="32" Margin="321,158,0,0" VerticalAlignment="Top" Width="177" Source="img/barraCaricamento 0.png" Stretch="Fill" Opacity="0"/>
+        <Button x:Name="btnLeggi" Content="LEGGI" HorizontalAlignment="Left" Height="56" Margin="316,246,0,0" VerticalAlignment="Top" Width="182" BorderBrush="Black" Background="White" FontFamily="Stencil" Click="btnLeggi_Click"/>
     </Grid>
 </Window>

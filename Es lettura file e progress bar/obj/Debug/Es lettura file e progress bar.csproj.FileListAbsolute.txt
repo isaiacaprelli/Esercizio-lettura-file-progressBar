@@ -1,0 +1,15 @@
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\bin\Debug\Es lettura file e progress bar.exe.config
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\bin\Debug\Es lettura file e progress bar.exe
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\bin\Debug\Es lettura file e progress bar.pdb
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar_MarkupCompile.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar_MarkupCompile.lref
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.g.resources
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es_lettura_file_e_progress_bar.Properties.Resources.resources
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.exe
+C:\Users\utente\Desktop\isa\tps\Esercizio lettura testo con progress bar\Es lettura file e progress bar\Es lettura file e progress bar\obj\Debug\Es lettura file e progress bar.pdb
